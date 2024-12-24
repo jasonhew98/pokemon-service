@@ -1,0 +1,14 @@
+@Api_HostAddress = http://localhost:5147/api
+
+GET {{Api_HostAddress}}/pokemons/
+Accept: application/json
+
+###
+
+GET {{Api_HostAddress}}/pokemons/dp3-1
+Accept: application/json
+
+### GET JP Sets
+
+GET {{Api_HostAddress}}/pokemons/jp/sets
+Accept: application/json
